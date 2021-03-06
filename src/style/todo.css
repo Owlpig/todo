@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&family=Akaya+Kanadaka&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'ABeeZee', sans-serif;
+}
+
+h1, legend { 
+  font-family: 'Akaya Kanadaka', cursive;
+}
+
+body {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.todo-form {
+  min-width: 300px;
+  width: 75%;
+}
+
+.todo-form__fieldset {
+  background-color: rgb(184, 245, 184);
+  border-radius: 5px;
+  border: forestgreen 2px solid
+}
+
+legend {
+  font-size: 20px;
+  border-radius: 5px;
+  border: forestgreen 2px solid;
+  background-color: white;
+}
+
+#desc-input {
+  width: 100%;
+}
+
+#form-submit {
+  color: white;
+  background-color: darkgreen;
+  border: black solid 1px;
+  border-radius: 2px;
+  font-size: 18px;
+  float: right;
+}
+
+.todo-list {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  min-width: 300px;
+  width: 75%;
+}
+
+.todo-card {
+  background-color: lightgoldenrodyellow;
+  margin: 10px 0px;
+  padding: 10px;
+  border-radius: 5px;
+  border: darkgoldenrod 2px solid
+}
+
+.todo-title {
+  text-transform: capitalize;
+  margin-top: 0px;
+}
+
+.todo-card--done {
+  background-color: rgb(228, 228, 228);
+  border: gray 2px solid;
+  order: 1;
+  text-decoration: line-through;
+}
+
+.delete-todo {
+  background-color: rgb(143, 26, 26);
+  color: white;
+  border: black solid 1px;
+  border-radius: 2px;
+  font-size: 18px;
+  float: right;
+}
