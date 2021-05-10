@@ -9,5 +9,5 @@ To make it run locally on your computer:
 git clone https://github.com/Owlpig/todo.git
 cd todo
 npm i
-npm start
+npm run dev
 ```

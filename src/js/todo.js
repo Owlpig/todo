@@ -81,11 +81,9 @@ todoList.addEventListener('click', (e) => {
   if (target.className === 'delete-todo') {
     deleteCard(target);
     renderPage();
-  } else {
+  } else if (target.className !== 'todo-list') {
     toggleDone(target);
   }
 });
 
 renderPage();
-
-console.log('🚀');
